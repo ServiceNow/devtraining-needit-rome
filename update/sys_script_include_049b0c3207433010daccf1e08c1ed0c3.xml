@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.NeedItUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Utils Script Include for the NeedIt application.</description>
+        <name>NeedItUtils</name>
+        <script><![CDATA[var NeedItUtils = Class.create();
+NeedItUtils.prototype = {
+    initialize: function() {},
+    isDatePast: function(strDate) {
+        // Create GlideDateTime objects for the current date and the date passed in strDate
+        var rightNow = new GlideDateTime();
+        var dateToCompare = new GlideDateTime(strDate);
+
+        // If dateToCompare is before rightNow, return true, else return false
+        return dateToCompare.before(rightNow);
+    },
+    isDateToday: function(strDate) {
+        // 0 is the same date, -1 is before, 1 is after
+        var rightNow = new GlideDateTime();
+        var dateToCompare = new GlideDateTime(strDate);
+		// Get date from the GlideDateTime objects
+        var today = rightNow.getLocalDate();
+        var date = dateToCompare.getLocalDate();
+        return date.compareTo(today) === 0 ? true : false;
+    },
+    type: 'NeedItUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-10 16:36:08</sys_created_on>
+        <sys_id>049b0c3207433010daccf1e08c1ed0c3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>NeedItUtils</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_049b0c3207433010daccf1e08c1ed0c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-10 18:42:51</sys_updated_on>
+    </sys_script_include>
+</record_update>
