@@ -172,7 +172,7 @@
           "propertyValues" : {
             "table" : {
               "type" : "JSON_LITERAL",
-              "value" : "x_58872_needit_needit"
+              "value" : "NeedIt"
             },
             "sysId" : {
               "type" : "DATA_OUTPUT_BINDING",
@@ -185,9 +185,10 @@
               "value" : ""
             },
             "primaryValue" : {
-              "type" : "DATA_OUTPUT_BINDING",
-              "binding" : {
-                "address" : [ "add_user_to_text_string_1", "output" ]
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "My Next NeedIt",
+                "comment" : ""
               }
             },
             "subHeadingValue" : {
@@ -287,7 +288,7 @@
                     "modalId" : "[component-id$='view_record']",
                     "showModal" : true,
                     "displayOptions" : null,
-                    "bare" : false,
+                    "bare" : null,
                     "preserveState" : null
                   }
                 },
@@ -1215,6 +1216,9 @@
   "message" : "Enter a label",
   "comment" : ""
 }, {
+  "message" : "My Next NeedIt",
+  "comment" : ""
+}, {
   "message" : "NeedIt Logo",
   "comment" : ""
 }, {
@@ -1239,13 +1243,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-24 18:11:54</sys_created_on>
         <sys_id>223f9e631b46f41068dd5464604bcb2a</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_223f9e631b46f41068dd5464604bcb2a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-27 22:33:49</sys_updated_on>
+        <sys_updated_on>2021-10-15 16:41:54</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
