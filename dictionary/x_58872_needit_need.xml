@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="Need" max_length="40" name="x_58872_needit_need" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_when_needed" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Requested type" mandatory="true" max_length="40" name="u_requested_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Legal" sequence="1" value="legal"/>
+                <element inactive_on_update="false" label="Facilities" sequence="2" value="facilities"/>
+                <element inactive_on_update="false" label="Payroll" sequence="3" value="payroll"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resource 1" sequence="0" value="hr1"/>
+                <element inactive_on_update="false" label="Human Resource 2" sequence="1" value="hr2"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="2" value="legal1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="3" value="legal2"/>
+                <element inactive_on_update="false" label="Facilities 1" sequence="4" value="facilities1"/>
+                <element inactive_on_update="false" label="Facilities 2" sequence="5" value="facilities2"/>
+                <element inactive_on_update="false" label="Payroll 1" sequence="6" value="payroll1"/>
+                <element inactive_on_update="false" label="Payroll 2" sequence="7" value="payroll2"/>
+            </choice>
+        </element>
+    </element>
+</database>
