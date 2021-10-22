@@ -617,7 +617,7 @@
             },
             "titleHeadingLevel" : {
               "type" : "JSON_LITERAL",
-              "value" : "1"
+              "value" : "2"
             },
             "titleStyleVariant" : {
               "type" : "JSON_LITERAL",
@@ -1170,12 +1170,79 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events/>
+        <dispatched_events>5441656a2f1fbc10cfb0ffecf699b6f8</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events/>
+        <handled_events>621e1d2e2f97bc10cfb0ffecf699b660</handled_events>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{
+  "x_58872_needit.OPEN_NEEDIT_APP_RECORDS" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_223f9e631b46f41068dd5464604bcb2a",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : "needit-app-records"
+          },
+          "fields" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "sysId" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "sysId" ]
+                }
+              },
+              "table" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "table" ]
+                }
+              }
+            }
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "external" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
+        }
+      },
+      "sysId" : "5441656a2f1fbc10cfb0ffecf699b6f8"
+    },
+    "operation" : null,
+    "targetId" : "ckvccgtgljaaaaaaiccaiijjahjjfvogdd",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -1224,13 +1291,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-24 18:11:54</sys_created_on>
         <sys_id>223f9e631b46f41068dd5464604bcb2a</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_223f9e631b46f41068dd5464604bcb2a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-21 21:25:30</sys_updated_on>
+        <sys_updated_on>2021-10-22 14:27:10</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
