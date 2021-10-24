@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="NeedIt Experience Config">50202aa22f137010e3a6e93df699b625</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent/>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>User home Copy</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Home">974166222f137010e3a6e93df699b6fb</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 16:44:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b044105f2f533010e3a6e93df699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User home Copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_b044105f2f533010e3a6e93df699b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 16:44:45</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=b044105f2f533010e3a6e93df699b63b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3b4a8e32db7a48500ae3ac44d49619f6</instance_id>
+        <instance_name>dev100105</instance_name>
+        <name>sys_ux_screen_b044105f2f533010e3a6e93df699b63b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="NeedIt Experience Config">50202aa22f137010e3a6e93df699b625</app_config><description/><event_mappings>[ ]</event_mappings><macroponent/><macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config><name>User home Copy</name><order>0</order><parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent><required_translations>[ ]</required_translations><screen_condition/><screen_type display_value="Home">974166222f137010e3a6e93df699b6fb</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-24 16:44:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b044105f2f533010e3a6e93df699b63b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User home Copy</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_screen_b044105f2f533010e3a6e93df699b63b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-24 16:44:45</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=b044105f2f533010e3a6e93df699b63b"/></record_update>]]></payload>
+        <payload_hash>424053205</payload_hash>
+        <record_name>User home Copy</record_name>
+        <reverted_from/>
+        <source>a2ae92ae2f5f3010e3a6e93df699b6e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 16:53:50</sys_created_on>
+        <sys_id>a156dc9f2f533010e3a6e93df699b6bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb33901e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 16:53:50</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>f044105fe953301067821e9be2fb9b3d</update_guid>
+        <update_guid_history>f044105fe953301067821e9be2fb9b3d:2134384534,f044105fe953301067821e9be2fb9b3d:2134384534</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-24 16:53:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>84bcdb0cae9e44ea986df7747c556cf9</sys_id>
+        <sys_metadata>b044105f2f533010e3a6e93df699b63b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User home Copy</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_b044105f2f533010e3a6e93df699b63b</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_b044105f2f533010e3a6e93df699b63b">a156dc9f2f533010e3a6e93df699b6bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-24 16:53:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
