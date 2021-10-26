@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="c94122494a362312007f2ce5bd78768f" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="NeedIt">0242fb8d0fa83200cd674f8ce1050e79</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_application_property_value">sys_application_propertySTARTSWITHx_58872_needit.advancedNoticeDays^EQ<item endquery="false" field="sys_application_property" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_58872_needit.advancedNoticeDays"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>NeedIt Properties</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_application_property_value</name>
+        <order>900</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_58872_needit.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-26 19:38:28</sys_created_on>
+        <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+        <sys_domain_path>!!!/!!(/</sys_domain_path>
+        <sys_id>b87e8b7b1b9330108b7a7596cc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Properties</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_module_b87e8b7b1b9330108b7a7596cc4bcb59</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-26 19:38:28</sys_updated_on>
+        <timeline_page/>
+        <title>NeedIt Properties</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
