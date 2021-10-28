@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Self_Service</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 18:29:54</sys_created_on>
+        <sys_id>8cb2ddec2fe330100d745e492799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self_service</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_view_8cb2ddec2fe330100d745e492799b6da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 18:29:54</sys_updated_on>
+        <title>Self_service</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>776f882cdbb41b84536ad5b0cf9619ff</instance_id>
+        <instance_name>dev52019</instance_name>
+        <name>sys_ui_view_8cb2ddec2fe330100d745e492799b6da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Self_Service</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-28 18:29:54</sys_created_on><sys_id>8cb2ddec2fe330100d745e492799b6da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Self_service</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_view_8cb2ddec2fe330100d745e492799b6da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-28 18:29:54</sys_updated_on><title>Self_service</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>-1131655071</payload_hash>
+        <record_name>Self_service</record_name>
+        <reverted_from/>
+        <source>b64118a82f2330100d745e492799b6f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 18:29:54</sys_created_on>
+        <sys_id>48b211202f2730100d745e492799b64d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cc82a67790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 18:29:54</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>80b21120c8273010995124210d70e94d</update_guid>
+        <update_guid_history>80b21120c8273010995124210d70e94d:-1131655071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 18:40:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>387c023edd5945aaa4019ad240f25104</sys_id>
+        <sys_metadata>8cb2ddec2fe330100d745e492799b6da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Self_service</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_view_8cb2ddec2fe330100d745e492799b6da</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_8cb2ddec2fe330100d745e492799b6da">48b211202f2730100d745e492799b64d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 18:40:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
