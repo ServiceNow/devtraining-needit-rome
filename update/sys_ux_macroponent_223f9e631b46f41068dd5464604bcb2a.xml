@@ -836,7 +836,7 @@
                 }
               },
               "eventMappings" : [ {
-                "eventMappingId" : "ckvjqseehxaaaaddaaddeiieeiddifqaffw",
+                "eventMappingId" : "ckvjsddcwzaaaaddxddeiieeqjjyaamyxy",
                 "isConfiguration" : false,
                 "offRowStorageId" : null,
                 "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
@@ -852,36 +852,18 @@
                   "clientScript" : null,
                   "declarativeAction" : null,
                   "event" : {
-                    "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                    "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
                     "payload" : {
                       "type" : "JSON_LITERAL",
                       "value" : {
-                        "propName" : "listQuery",
-                        "value" : "active=true"
+                        "heListQuery" : "active=true",
+                        "heListTitle" : "Active NeedIts"
                       }
                     },
-                    "sysId" : "32408b42ff7a10109046e490703bf176"
+                    "sysId" : "f9893f5a07e33410d4b4fa4d7c1ed030"
                   },
                   "operation" : null,
-                  "targetId" : "ckvjqseehxaaaaddbbddeiieeaaahojjzhh",
-                  "type" : "EVENT"
-                }, {
-                  "broker" : null,
-                  "clientScript" : null,
-                  "declarativeAction" : null,
-                  "event" : {
-                    "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : {
-                        "propName" : "listTitle",
-                        "value" : "Active NeedIts"
-                      }
-                    },
-                    "sysId" : "32408b42ff7a10109046e490703bf176"
-                  },
-                  "operation" : null,
-                  "targetId" : "ckvjqsdogaaaaddccddeiieedggyhggnen",
+                  "targetId" : "ckvjsddcwzaaaaddyddeiieeddkziliidm",
                   "type" : "EVENT"
                 } ]
               } ],
@@ -937,7 +919,7 @@
                 }
               },
               "eventMappings" : [ {
-                "eventMappingId" : "ckvjqciixccaaaacciddeiieecckyybbbsee",
+                "eventMappingId" : "ckvjseebbteeaaaaddzddeiieessddjjxggfj",
                 "isConfiguration" : false,
                 "offRowStorageId" : null,
                 "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
@@ -953,36 +935,18 @@
                   "clientScript" : null,
                   "declarativeAction" : null,
                   "event" : {
-                    "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                    "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
                     "payload" : {
                       "type" : "JSON_LITERAL",
                       "value" : {
-                        "propName" : "listQuery",
-                        "value" : "state=14"
+                        "heListQuery" : "state=14",
+                        "heListTitle" : "NeedIts Awaiting Approval"
                       }
                     },
-                    "sysId" : "32408b42ff7a10109046e490703bf176"
+                    "sysId" : "f9893f5a07e33410d4b4fa4d7c1ed030"
                   },
                   "operation" : null,
-                  "targetId" : "ckvjqciixccaaaaccjddeiieequbbatakcc",
-                  "type" : "EVENT"
-                }, {
-                  "broker" : null,
-                  "clientScript" : null,
-                  "declarativeAction" : null,
-                  "event" : {
-                    "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : {
-                        "propName" : "listTitle",
-                        "value" : "NeedIts Awaiting Approval"
-                      }
-                    },
-                    "sysId" : "32408b42ff7a10109046e490703bf176"
-                  },
-                  "operation" : null,
-                  "targetId" : "ckvjqckjjccaaaacckddeiieeguffcctkaat",
+                  "targetId" : "ckvjseebbteeaaaaeeaaddeiieejjlsqibbxl",
                   "type" : "EVENT"
                 } ]
               } ],
@@ -1038,7 +1002,7 @@
                 }
               },
               "eventMappings" : [ {
-                "eventMappingId" : "ckvjreebccpaaaaddbddeiieebbjfjjxjjak",
+                "eventMappingId" : "ckvjseemqlaaaaeebbddeiieegggddfkhhex",
                 "isConfiguration" : false,
                 "offRowStorageId" : null,
                 "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
@@ -1054,36 +1018,18 @@
                   "clientScript" : null,
                   "declarativeAction" : null,
                   "event" : {
-                    "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                    "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
                     "payload" : {
                       "type" : "JSON_LITERAL",
                       "value" : {
-                        "propName" : "listQuery",
-                        "value" : "state=3"
+                        "heListQuery" : "state=3",
+                        "heListTitle" : "Closed NeedIts"
                       }
                     },
-                    "sysId" : "32408b42ff7a10109046e490703bf176"
+                    "sysId" : "f9893f5a07e33410d4b4fa4d7c1ed030"
                   },
                   "operation" : null,
-                  "targetId" : "ckvjreebccpaaaaddcddeiieeccpopxqhh",
-                  "type" : "EVENT"
-                }, {
-                  "broker" : null,
-                  "clientScript" : null,
-                  "declarativeAction" : null,
-                  "event" : {
-                    "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : {
-                        "propName" : "listTitle",
-                        "value" : "Closed NeedIts"
-                      }
-                    },
-                    "sysId" : "32408b42ff7a10109046e490703bf176"
-                  },
-                  "operation" : null,
-                  "targetId" : "ckvjreengfaaaadddddeiieewkaabbfhree",
+                  "targetId" : "ckvjseemqlaaaaeeccddeiieetgghsgiiwn",
                   "type" : "EVENT"
                 } ]
               } ],
@@ -1631,10 +1577,64 @@
         <data>[ ]</data>
         <dispatched_events>128f29ad07fa7010d4b4fa4d7c1ed072</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events/>
+        <handled_events>f9893f5a07e33410d4b4fa4d7c1ed030</handled_events>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{
+  "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "propName" : {
+            "type" : "JSON_LITERAL",
+            "value" : "listQuery"
+          },
+          "value" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "heListQuery" ]
+            }
+          }
+        }
+      },
+      "sysId" : "32408b42ff7a10109046e490703bf176"
+    },
+    "operation" : null,
+    "targetId" : "ckvjrxliiiiaaaaddvddeiieecczwztiikhh",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "propName" : {
+            "type" : "JSON_LITERAL",
+            "value" : "listTitle"
+          },
+          "value" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "heListTitle" ]
+            }
+          }
+        }
+      },
+      "sysId" : "32408b42ff7a10109046e490703bf176"
+    },
+    "operation" : null,
+    "targetId" : "ckvjryhhgghaaaaddwddeiieeyiikafffjb",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -1714,13 +1714,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-24 18:11:54</sys_created_on>
         <sys_id>223f9e631b46f41068dd5464604bcb2a</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_223f9e631b46f41068dd5464604bcb2a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-03 16:47:01</sys_updated_on>
+        <sys_updated_on>2021-11-03 17:14:21</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
