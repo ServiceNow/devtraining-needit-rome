@@ -867,7 +867,7 @@
                   "type" : "EVENT"
                 } ]
               } ],
-              "slot" : "Main",
+              "slot" : "Row 1",
               "definition" : {
                 "id" : "d37ce8abca89d02905fed903c8e34d8e",
                 "type" : "MACROPONENT"
@@ -950,7 +950,7 @@
                   "type" : "EVENT"
                 } ]
               } ],
-              "slot" : "Main",
+              "slot" : "Row 1",
               "definition" : {
                 "id" : "d37ce8abca89d02905fed903c8e34d8e",
                 "type" : "MACROPONENT"
@@ -1033,9 +1033,195 @@
                   "type" : "EVENT"
                 } ]
               } ],
-              "slot" : "Main",
+              "slot" : "Row 1",
               "definition" : {
                 "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : { }
+            }, {
+              "elementId" : "request_type_radio_buttons",
+              "elementLabel" : "Request Type Radio Buttons",
+              "propertyValues" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Request type to view:",
+                    "comment" : ""
+                  }
+                },
+                "value" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "all"
+                },
+                "optional" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "hideRequiredIndicator" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "readonly" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "helperContent" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "invalid" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "layout" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "horizontal"
+                },
+                "messages" : {
+                  "type" : "LIST_CONTAINER",
+                  "container" : [ ]
+                },
+                "options" : {
+                  "type" : "LIST_CONTAINER",
+                  "container" : [ {
+                    "type" : "MAP_CONTAINER",
+                    "container" : {
+                      "id" : {
+                        "type" : "JSON_LITERAL",
+                        "value" : "all"
+                      },
+                      "label" : {
+                        "type" : "TRANSLATION_LITERAL",
+                        "value" : {
+                          "message" : "All",
+                          "comment" : ""
+                        }
+                      },
+                      "checked" : {
+                        "type" : "JSON_LITERAL",
+                        "value" : true
+                      }
+                    }
+                  }, {
+                    "type" : "MAP_CONTAINER",
+                    "container" : {
+                      "id" : {
+                        "type" : "JSON_LITERAL",
+                        "value" : "legal"
+                      },
+                      "label" : {
+                        "type" : "TRANSLATION_LITERAL",
+                        "value" : {
+                          "message" : "Legal",
+                          "comment" : ""
+                        }
+                      }
+                    }
+                  }, {
+                    "type" : "MAP_CONTAINER",
+                    "container" : {
+                      "id" : {
+                        "type" : "JSON_LITERAL",
+                        "value" : "facilities"
+                      },
+                      "label" : {
+                        "type" : "TRANSLATION_LITERAL",
+                        "value" : {
+                          "message" : "Facilities",
+                          "comment" : ""
+                        }
+                      }
+                    }
+                  }, {
+                    "type" : "MAP_CONTAINER",
+                    "container" : {
+                      "id" : {
+                        "type" : "JSON_LITERAL",
+                        "value" : "hr"
+                      },
+                      "label" : {
+                        "type" : "TRANSLATION_LITERAL",
+                        "value" : {
+                          "message" : "Human Resources",
+                          "comment" : ""
+                        }
+                      }
+                    }
+                  } ]
+                },
+                "name" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "reqType"
+                }
+              },
+              "eventMappings" : [ {
+                "eventMappingId" : "ckvlbbjknbaaaabbccddeiiffwiivuaamvv",
+                "isConfiguration" : false,
+                "offRowStorageId" : null,
+                "sourceEventApiName" : "sn_radio_buttons.NOW_RADIO_BUTTONS#VALUE_SET",
+                "sourceEventCorrelationId" : null,
+                "sourceEventDefinition" : {
+                  "apiName" : "sn_radio_buttons.NOW_RADIO_BUTTONS#VALUE_SET",
+                  "id" : null,
+                  "type" : "UXEVENT"
+                },
+                "sourceEventSysId" : null,
+                "targets" : [ {
+                  "broker" : null,
+                  "clientScript" : {
+                    "sysId" : "b98dd4fe07ef3410d4b4fa4d7c1ed087"
+                  },
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : null,
+                  "targetId" : "ckvlbbjknbaaaabbddddeiiffbkbszggmx",
+                  "type" : "CLIENT_SCRIPT"
+                }, {
+                  "broker" : null,
+                  "clientScript" : null,
+                  "declarativeAction" : null,
+                  "event" : {
+                    "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
+                    "payload" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : {
+                        "heListQuery" : {
+                          "type" : "EVENT_PAYLOAD_BINDING",
+                          "binding" : {
+                            "address" : [ "value" ]
+                          }
+                        },
+                        "heListTitle" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : null
+                        }
+                      }
+                    },
+                    "sysId" : "f9893f5a07e33410d4b4fa4d7c1ed030"
+                  },
+                  "operation" : null,
+                  "targetId" : "ckvlccddeemffaaaaccddddeiiffaaiizotzgf",
+                  "type" : "EVENT"
+                } ]
+              } ],
+              "slot" : "Row 2",
+              "definition" : {
+                "id" : "7c55543779712b34de393138bc014575",
                 "type" : "MACROPONENT"
               },
               "overrides" : null,
@@ -1049,13 +1235,14 @@
             "layout" : {
               "default" : {
                 "children" : null,
-                "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"row","justify-content":"space-between"}}],
+                "items" : [{"slotName":"Row 1","rules":{"flex":"1","margin-bottom":"1rem"},"styles":{"display":"flex","flex-direction":"row","justify-content":"space-between"}},{"slotName":"Row 2","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
                 "root" : null,
-                "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+                "rules" : {"flex-flow":"column nowrap","align-items":"stretch","height":"100%"},
                 "styles" : null,
-                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                "templateId" : "f348f94153071010e6bcddeeff7b12dd",
                 "type" : "flex"
-              }
+              },
+              "version" : "2.0.0"
             }
           },
           "isHidden" : {
@@ -1583,56 +1770,14 @@
         <internal_event_mappings>{
   "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE" : [ {
     "broker" : null,
-    "clientScript" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-      "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "propName" : {
-            "type" : "JSON_LITERAL",
-            "value" : "listQuery"
-          },
-          "value" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "heListQuery" ]
-            }
-          }
-        }
-      },
-      "sysId" : "32408b42ff7a10109046e490703bf176"
+    "clientScript" : {
+      "sysId" : "ff906c3207637410d4b4fa4d7c1ed071"
     },
-    "operation" : null,
-    "targetId" : "ckvjrxliiiiaaaaddvddeiieecczwztiikhh",
-    "type" : "EVENT"
-  }, {
-    "broker" : null,
-    "clientScript" : null,
     "declarativeAction" : null,
-    "event" : {
-      "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
-      "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "propName" : {
-            "type" : "JSON_LITERAL",
-            "value" : "listTitle"
-          },
-          "value" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "heListTitle" ]
-            }
-          }
-        }
-      },
-      "sysId" : "32408b42ff7a10109046e490703bf176"
-    },
+    "event" : null,
     "operation" : null,
-    "targetId" : "ckvjryhhgghaaaaddwddeiieeyiikafffjb",
-    "type" : "EVENT"
+    "targetId" : "ckvlccbbqtqaaaaccccddeiiffvmzccjxnu",
+    "type" : "CLIENT_SCRIPT"
   } ]
 }</internal_event_mappings>
         <layout>{
@@ -1656,7 +1801,19 @@
   "message" : "Active NeedIts by Request type ",
   "comment" : ""
 }, {
+  "message" : "All",
+  "comment" : ""
+}, {
   "message" : "Closed NeedIts",
+  "comment" : ""
+}, {
+  "message" : "Facilities",
+  "comment" : ""
+}, {
+  "message" : "Human Resources",
+  "comment" : ""
+}, {
+  "message" : "Legal",
   "comment" : ""
 }, {
   "message" : "NeedIt Logo",
@@ -1669,6 +1826,9 @@
   "comment" : ""
 }, {
   "message" : "Overdue NeedIts",
+  "comment" : ""
+}, {
+  "message" : "Request type to view:",
   "comment" : ""
 }, {
   "message" : "The NeedIt Experience",
@@ -1709,18 +1869,29 @@
     "type" : "JSON_LITERAL",
     "value" : "Active NeedIts"
   }
+}, {
+  "name" : "reqType",
+  "label" : "reqType",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "all"
+  }
 } ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-24 18:11:54</sys_created_on>
         <sys_id>223f9e631b46f41068dd5464604bcb2a</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_223f9e631b46f41068dd5464604bcb2a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-03 17:14:21</sys_updated_on>
+        <sys_updated_on>2021-11-04 14:53:07</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
