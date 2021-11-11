@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-26 18:44:01</sys_created_on>
-        <sys_id>d80201a9dbaf5b009d7831d0ef961918</sys_id>
+        <sys_id>45efe9211b963010c811c991604bcbeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>NeedIt</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_dictionary_x_58872_needit_needit_task_u_needit</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-26 18:44:01</sys_updated_on>
+        <sys_updated_on>2021-11-11 15:58:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
