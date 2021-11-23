@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value>active=true</example_value>
+        <name>ni_query</name>
+        <required>true</required>
+        <short_description>Search Need it recs</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-22 21:28:42</sys_created_on>
+        <sys_id>944ba6ac2f040110a7e2f64ef699b6cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ni_query</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_944ba6ac2f040110a7e2f64ef699b6cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-23 15:55:29</sys_updated_on>
+        <web_service_definition display_value="NeedIt Api">551ae6e82f040110a7e2f64ef699b6c4</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>
