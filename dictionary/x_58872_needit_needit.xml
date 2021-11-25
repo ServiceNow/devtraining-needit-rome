@@ -2,5 +2,6 @@
     <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
         <element label="New Field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="New field 11" max_length="40" name="new_field_11" type="integer"/>
+        <element label="New field 111" max_length="40" name="new_field_111" type="integer"/>
     </element>
 </database>
