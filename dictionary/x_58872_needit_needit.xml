@@ -3,5 +3,6 @@
         <element label="New Field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="New field 11" max_length="40" name="new_field_11" type="integer"/>
         <element label="New field 111" max_length="40" name="new_field_111" type="integer"/>
+        <element label="New field 1111" max_length="40" name="new_field_1111" type="integer"/>
     </element>
 </database>
