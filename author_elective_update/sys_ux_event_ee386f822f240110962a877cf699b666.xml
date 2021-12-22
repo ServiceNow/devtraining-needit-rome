@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>UPDATE_CLIENT_STATE_PARAMETER</event_name>
+        <interfaces/>
+        <label>Update client state parameter</label>
+        <props>[{"name":"heListQuery","fieldType":"","label":"List query","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"heListTitle","fieldType":"","label":"List title","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[ {
+  "message" : "List query",
+  "comment" : ""
+}, {
+  "message" : "List title",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-22 14:16:56</sys_created_on>
+        <sys_id>ee386f822f240110962a877cf699b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update client state parameter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_ee386f822f240110962a877cf699b666</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-22 14:16:56</sys_updated_on>
+    </sys_ux_event>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>e7ef3f09db11081007072f17d4961930</instance_id>
+        <instance_name>dev95122</instance_name>
+        <name>sys_ux_event_ee386f822f240110962a877cf699b666</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>UPDATE_CLIENT_STATE_PARAMETER</event_name><interfaces/><label>Update client state parameter</label><props>[{"name":"heListQuery","fieldType":"","label":"List query","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"heListTitle","fieldType":"","label":"List title","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props><required_translations>[ {
+  "message" : "List query",
+  "comment" : ""
+}, {
+  "message" : "List title",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-22 14:16:56</sys_created_on><sys_id>ee386f822f240110962a877cf699b666</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Update client state parameter</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_event_ee386f822f240110962a877cf699b666</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-22 14:16:56</sys_updated_on></sys_ux_event></record_update>]]></payload>
+        <payload_hash>-1847172328</payload_hash>
+        <record_name>Update client state parameter</record_name>
+        <reverted_from/>
+        <source>578143462fa00110962a877cf699b622</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-22 14:16:56</sys_created_on>
+        <sys_id>22386f822f240110962a877cf699b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17de28090130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-22 14:16:56</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>6a386f826e240110be9dada984967d68</update_guid>
+        <update_guid_history>6a386f826e240110be9dada984967d68:-1847172328</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-22 14:29:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>473064db3b124ddf803916122bc1abc9</sys_id>
+        <sys_metadata>ee386f822f240110962a877cf699b666</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update client state parameter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_event_ee386f822f240110962a877cf699b666</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_ee386f822f240110962a877cf699b666">22386f822f240110962a877cf699b669</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-22 14:29:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
