@@ -30,19 +30,29 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	
-	// rightnow stores the current time
-  var rightnow = new GlideDateTime();
-  // Create a GlideDateTime object for the When needed date
-  var whenNeeded = new GlideDateTime(current.u_when_needed);
+	// Instantiate the NeedItUtils class.  Call the isDatePast method and pass 
+  // the u_when_needed value.
+  var niutils = new NeedItUtils();
   
-  // If the When needed date is before rightnow, do not write the record to the database
-  // Output an error message to the screen
-  if(whenNeeded.before(rightnow)){
-    gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
+   // dichiarazione e inzializzazione variabile di appoggio
+  var dataCorrente = current.u_when_needed;
+	
+  // richiamo funzioni e salvo il loro valore di ritorno
+  var isPast = niutils.isDatePast(dataCorrente); // funzione che controlla se la data è nel passato
+  var isDateToday = niutils.isDateToday(dataCorrente); // funzione che controlla se la data è quella odierna
+  
+  // If the isDatePast method returns true, the date is in the past.
+  if(isPast == true && isDateToday == false){
+    gs.addErrorMessage("La data impostata non può essere al passato.  Your request has not been saved to the database.");
     current.setAbortAction(true);
   }
 	
+  // Sfida - Controllo data odierna
+  if(isDateToday == true) {
+	gs.addErrorMessage("La data impostata non può essere al presente.  La tua richiesta non è stata salvata nel database.");
+	current.setAbortAction(true);
+  }
+	/* SFIDA SUPERATA - AGGIUNTA DI UNA CLASSE CHE USA LA STESSA FUNZIONE
 	// Sfida - Impossibile selezionare il giorno corrente
   var oggi = rightnow.getLocalDate();  // ottengo la data corrente ovvero di oggi
   var dataInserita = whenNeeded.getLocalDate(); // ottengo la data inserita dall'utente
@@ -51,7 +61,7 @@
 	// se le date sono uguali stampo un messaggio
     gs.addErrorMessage("Non è possibile selezionare la data odierna!");
     current.setAbortAction(true); // interrompo la query al database
-  }
+  } */ 
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -60,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9188c0499705411050de3e2e6253af5c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>NeedIt Quando necessario campo data</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -68,7 +78,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_9188c0499705411050de3e2e6253af5c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-12 16:07:37</sys_updated_on>
+        <sys_updated_on>2022-01-13 11:00:30</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
