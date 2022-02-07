@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Home">5ef076c5db210110e529c5860596194f</macroponent>
+        <name>stylized_text_2_text</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+
+    return api.data.aggregation_query_1.output.data.GlideAggregate_Query[0].count + " approved requests out of " + api.data.aggregation_query_2.output.data.GlideAggregate_Query[0].count;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 13:23:55</sys_created_on>
+        <sys_id>18de1991dbe90110e529c586059619a6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>stylized_text_2_text</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_18de1991dbe90110e529c586059619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-07 13:29:44</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

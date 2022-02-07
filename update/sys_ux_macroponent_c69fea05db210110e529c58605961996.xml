@@ -4,7 +4,7 @@
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
-  "elementId" : "b476f9111bc2301068dd5464604bcb91_Main",
+  "elementId" : "223f9e631b46f41068dd5464604bcb2a_Main",
   "elementLabel" : "Main",
   "propertyValues" : {
     "ariaRegionName" : {
@@ -124,8 +124,8 @@
               },
               "overrides" : {
                 "composition" : [ {
-                  "elementId" : "image_1",
-                  "elementLabel" : "Image 1",
+                  "elementId" : "page_logo",
+                  "elementLabel" : "Page Logo",
                   "propertyValues" : {
                     "alt" : {
                       "type" : "TRANSLATION_LITERAL",
@@ -137,7 +137,7 @@
                     },
                     "src" : {
                       "type" : "JSON_LITERAL",
-                      "value" : "needit-logo-green.png"
+                      "value" : "needit-logo-blue.png"
                     },
                     "fit" : {
                       "type" : "JSON_LITERAL",
@@ -169,8 +169,8 @@
                     "width" : "125px"
                   }
                 }, {
-                  "elementId" : "stylized_text_1",
-                  "elementLabel" : "Stylized text 1",
+                  "elementId" : "page_title",
+                  "elementLabel" : "Page Title",
                   "propertyValues" : {
                     "text" : {
                       "type" : "TRANSLATION_LITERAL",
@@ -208,7 +208,7 @@
                   "default" : {
                     "children" : null,
                     "isInline" : null,
-                    "items" : [{"rules":{},"styles":{},"element_id":"image_1"},{"rules":{},"styles":{},"element_id":"stylized_text_1"}],
+                    "items" : [{"rules":{},"styles":{},"element_id":"page_logo"},{"rules":{},"styles":{},"element_id":"page_title"}],
                     "root" : null,
                     "rules" : {},
                     "styles" : {"height":"100%","flex-direction":"row","align-items":"center","display":"flex"},
@@ -274,7 +274,176 @@
       "isNonDestructive" : false,
       "styles" : {
         "width" : "100%",
-        "background-color" : "#81B5A1"
+        "background-color" : "#6295A3"
+      }
+    }, {
+      "elementId" : "next_needit_row",
+      "elementLabel" : "Next NeedIt Row",
+      "propertyValues" : {
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "next_needit",
+          "elementLabel" : "Next NeedIt",
+          "propertyValues" : {
+            "ariaRegionName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
+              }
+            },
+            "includeAriaHeading" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "ariaRegionHeadingLevel" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "section"
+            },
+            "ariaRole" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "next_needit_Main",
+              "elementLabel" : "Main",
+              "propertyValues" : {
+                "ariaRegionName" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
+                },
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : null,
+              "definition" : {
+                "id" : "d356d14b6e293a3020a244b63d278d8f",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : {
+                "composition" : [ ],
+                "layout" : {
+                  "default" : {
+                    "children" : null,
+                    "isInline" : null,
+                    "items" : [],
+                    "root" : null,
+                    "rules" : {"flex-direction":"column"},
+                    "styles" : null,
+                    "templateId" : null,
+                    "type" : "flex"
+                  },
+                  "version" : "3.0.0"
+                }
+              },
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "isNonDestructive" : false,
+              "styles" : {
+                "height" : "100%"
+              }
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "isInline" : null,
+                "items" : [{"rules":{},"styles":{"display":"flex","flex-direction":"column","flex":"1","height":"100%"},"element_id":"next_needit_Main"}],
+                "root" : null,
+                "rules" : null,
+                "styles" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                "type" : "flex"
+              },
+              "version" : "3.0.0"
+            }
+          },
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isHero" : false,
+          "isNonDestructive" : false,
+          "styles" : {
+            "width" : "90%"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"rules":{},"styles":{"flex":"1"},"element_id":"next_needit"}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%",
+        "background-color" : "#A5C7D0"
       }
     }, {
       "elementId" : "reports_row",
@@ -397,8 +566,8 @@
                   },
                   "overrides" : {
                     "composition" : [ {
-                      "elementId" : "data_visualization_1",
-                      "elementLabel" : "Data visualization 1",
+                      "elementId" : "overdue_needits_score",
+                      "elementLabel" : "Overdue NeedIts Score",
                       "propertyValues" : {
                         "scoreSize" : {
                           "type" : "JSON_LITERAL",
@@ -509,7 +678,7 @@
                               },
                               "id" : {
                                 "type" : "JSON_LITERAL",
-                                "value" : "eF81ODg3Ml9uZWVkaXRfbmVlZGl0Q09VTlRudWxsbnVsbDE2NDM5NzU5Nzg1OTE3Mg=="
+                                "value" : "eF81ODg3Ml9uZWVkaXRfbmVlZGl0Q09VTlRudWxsbnVsbDE2NDM5NzU5NzgwNDA4MTc="
                               },
                               "aggregateFunction" : {
                                 "type" : "JSON_LITERAL",
@@ -671,7 +840,52 @@
                           "value" : "default"
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "ckzhhbdbnaaaaaaaatddiiiifftggfflgghfff",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                        "sourceEventCorrelationId" : null,
+                        "sourceEventDefinition" : {
+                          "apiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "conditional" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_223f9e631b46f41068dd5464604bcb2a",
+                            "payload" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : {
+                                "route" : "simple-list",
+                                "fields" : {
+                                  "table" : "x_58872_needit_needit"
+                                },
+                                "params" : {
+                                  "listTitle" : "Overdue NeedIts",
+                                  "listView" : "Experience_list",
+                                  "query" : "active=true^u_when_needed&lt;javascript:gs.beginningOfToday()"
+                                },
+                                "redirect" : null,
+                                "passiveNavigation" : null,
+                                "title" : null,
+                                "multiInstField" : null,
+                                "targetRoute" : null,
+                                "external" : null
+                              }
+                            },
+                            "sysId" : "03bf79c8db650110e529c5860596191e"
+                          },
+                          "operation" : null,
+                          "targetId" : "ckzhhbdbnaaaaaaaauddiiiifffddteeneexcc",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : null,
                       "definition" : {
                         "id" : "d24d53f60350de7a652caf3188a46ed2",
@@ -693,7 +907,7 @@
                       "default" : {
                         "children" : null,
                         "isInline" : null,
-                        "items" : [{"rules":{},"styles":{},"element_id":"data_visualization_1"}],
+                        "items" : [{"rules":{},"styles":{},"element_id":"overdue_needits_score"}],
                         "root" : null,
                         "rules" : {},
                         "styles" : {"height":"100%","flex-direction":"column","display":"flex"},
@@ -735,8 +949,8 @@
                   },
                   "overrides" : {
                     "composition" : [ {
-                      "elementId" : "data_visualization_2",
-                      "elementLabel" : "Data visualization 2",
+                      "elementId" : "active_needits_pie",
+                      "elementLabel" : "Active NeedIts Pie",
                       "propertyValues" : {
                         "backgroundRefreshInterval" : {
                           "type" : "JSON_LITERAL",
@@ -1007,7 +1221,7 @@
                               },
                               "id" : {
                                 "type" : "JSON_LITERAL",
-                                "value" : "eF81ODg3Ml9uZWVkaXRfbmVlZGl0Q09VTlRudWxsbnVsbDE2NDM5NzU5Nzg1OTQyNDA="
+                                "value" : "eF81ODg3Ml9uZWVkaXRfbmVlZGl0Q09VTlRudWxsbnVsbDE2NDM5NzU5NzgxNjk2NjQ="
                               },
                               "aggregateFunction" : {
                                 "type" : "JSON_LITERAL",
@@ -1035,7 +1249,97 @@
                           "value" : "default"
                         }
                       },
-                      "eventMappings" : [ ],
+                      "eventMappings" : [ {
+                        "eventMappingId" : "ckzhhbplgffaaaaccjjddiiiiffmiieeeqhaa",
+                        "isConfiguration" : false,
+                        "offRowStorageId" : null,
+                        "sourceEventApiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                        "sourceEventCorrelationId" : null,
+                        "sourceEventDefinition" : {
+                          "apiName" : "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                          "id" : null,
+                          "type" : "UXEVENT"
+                        },
+                        "sourceEventSysId" : null,
+                        "targets" : [ {
+                          "broker" : null,
+                          "clientScript" : null,
+                          "conditional" : null,
+                          "declarativeAction" : null,
+                          "event" : {
+                            "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_223f9e631b46f41068dd5464604bcb2a",
+                            "payload" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : {
+                                "route" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : "simple-list"
+                                },
+                                "fields" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "table" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "params", "table" ]
+                                      }
+                                    }
+                                  }
+                                },
+                                "params" : {
+                                  "type" : "MAP_CONTAINER",
+                                  "container" : {
+                                    "listTitle" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "title" ]
+                                      }
+                                    },
+                                    "query" : {
+                                      "type" : "EVENT_PAYLOAD_BINDING",
+                                      "binding" : {
+                                        "address" : [ "params", "query" ]
+                                      }
+                                    },
+                                    "listView" : {
+                                      "type" : "JSON_LITERAL",
+                                      "value" : "Lista_experiência"
+                                    }
+                                  }
+                                },
+                                "redirect" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "passiveNavigation" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "title" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "multiInstField" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "targetRoute" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                },
+                                "external" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : null
+                                }
+                              }
+                            },
+                            "sysId" : "03bf79c8db650110e529c5860596191e"
+                          },
+                          "operation" : null,
+                          "targetId" : "ckzhhbplgffaaaaccaddiiiiffrnjjuogtl",
+                          "type" : "EVENT"
+                        } ]
+                      } ],
                       "slot" : null,
                       "definition" : {
                         "id" : "96abe7e38d8790718022c5630a92176c",
@@ -1058,7 +1362,7 @@
                       "default" : {
                         "children" : null,
                         "isInline" : null,
-                        "items" : [{"rules":{},"styles":{},"element_id":"data_visualization_2"}],
+                        "items" : [{"rules":{},"styles":{},"element_id":"active_needits_pie"}],
                         "root" : null,
                         "rules" : {},
                         "styles" : {"height":"100%","flex-direction":"column","display":"flex"},
@@ -1078,8 +1382,8 @@
                     "height" : "100%"
                   }
                 }, {
-                  "elementId" : "data_visualization_3",
-                  "elementLabel" : "Data visualization 3",
+                  "elementId" : "needits_this_month_score",
+                  "elementLabel" : "NeedIts This Month Score",
                   "propertyValues" : {
                     "scoreSize" : {
                       "type" : "JSON_LITERAL",
@@ -1190,7 +1494,7 @@
                           },
                           "id" : {
                             "type" : "JSON_LITERAL",
-                            "value" : "eF81ODg3Ml9uZWVkaXRfbmVlZGl0Q09VTlRudWxsbnVsbDE2NDM5NzU5Nzg1OTk2OTg="
+                            "value" : "eF81ODg3Ml9uZWVkaXRfbmVlZGl0Q09VTlRudWxsbnVsbDE2NDM5NzU5NzgzMDk5MDI="
                           },
                           "aggregateFunction" : {
                             "type" : "JSON_LITERAL",
@@ -1374,7 +1678,7 @@
                   "default" : {
                     "children" : null,
                     "isInline" : null,
-                    "items" : [{"rules":{},"styles":{"flex":"1","margin-right":"1rem"},"element_id":"reports_Column_1"},{"rules":{},"styles":{"flex":"1","margin-right":"1rem"},"element_id":"reports_Column_2"},{"rules":{},"styles":{"flex":"1"},"element_id":"data_visualization_3"}],
+                    "items" : [{"rules":{},"styles":{"flex":"1","margin-right":"1rem"},"element_id":"reports_Column_1"},{"rules":{},"styles":{"flex":"1","margin-right":"1rem"},"element_id":"reports_Column_2"},{"rules":{},"styles":{"flex":"1"},"element_id":"needits_this_month_score"}],
                     "root" : null,
                     "rules" : null,
                     "styles" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -1438,7 +1742,7 @@
       "isNonDestructive" : false,
       "styles" : {
         "width" : "100%",
-        "background-color" : "#B3D4C7"
+        "background-color" : "#A5C7D0"
       }
     }, {
       "elementId" : "list_row",
@@ -1513,8 +1817,8 @@
           },
           "overrides" : {
             "composition" : [ {
-              "elementId" : "list__simple_1",
-              "elementLabel" : "List - Simple 1",
+              "elementId" : "all_active_needits_list",
+              "elementLabel" : "All Active NeedIts List",
               "propertyValues" : {
                 "listTitle" : {
                   "type" : "TRANSLATION_LITERAL",
@@ -1784,7 +2088,7 @@
                 }
               },
               "eventMappings" : [ {
-                "eventMappingId" : "ckzhhbzqwmaaaabbxddiiiiffbrddbfccsdd",
+                "eventMappingId" : "ckzhhcbbfffuaaaacciddiiiiffkntwfggir",
                 "isConfiguration" : false,
                 "offRowStorageId" : null,
                 "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
@@ -1801,7 +2105,7 @@
                   "conditional" : null,
                   "declarativeAction" : null,
                   "event" : {
-                    "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_b476f9111bc2301068dd5464604bcb91",
+                    "apiName" : "x_58872_needit.NAV_ITEM_SELECTED_RELAY_223f9e631b46f41068dd5464604bcb2a",
                     "payload" : {
                       "type" : "MAP_CONTAINER",
                       "container" : {
@@ -1856,10 +2160,10 @@
                         }
                       }
                     },
-                    "sysId" : "6ab2420cdb650110e529c5860596194c"
+                    "sysId" : "03bf79c8db650110e529c5860596191e"
                   },
                   "operation" : null,
-                  "targetId" : "ckzhhbzqwmaaaabbyddiiiiffophdhqgt",
+                  "targetId" : "ckzhhcbbfffuaaaaccjddiiiiffhhmyigiijjz",
                   "type" : "EVENT"
                 } ]
               } ],
@@ -1881,7 +2185,7 @@
               "default" : {
                 "children" : null,
                 "isInline" : null,
-                "items" : [{"rules":{},"styles":{"flex":"1"},"element_id":"list__simple_1"}],
+                "items" : [{"rules":{},"styles":{"flex":"1"},"element_id":"all_active_needits_list"}],
                 "root" : null,
                 "rules" : null,
                 "styles" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
@@ -1929,7 +2233,7 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"rules":{},"styles":{},"element_id":"header_row"},{"rules":{},"styles":{},"element_id":"reports_row"},{"rules":{},"styles":{},"element_id":"list_row"}],
+        "items" : [{"rules":{},"styles":{},"element_id":"header_row"},{"rules":{},"styles":{},"element_id":"next_needit_row"},{"rules":{},"styles":{},"element_id":"reports_row"},{"rules":{},"styles":{},"element_id":"list_row"}],
         "root" : null,
         "rules" : {},
         "styles" : {"height":"100%","flex-direction":"column","display":"flex"},
@@ -1951,7 +2255,7 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
-        <dispatched_events>6ab2420cdb650110e529c5860596194c</dispatched_events>
+        <dispatched_events>03bf79c8db650110e529c5860596191e</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -1961,7 +2265,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"rules":{},"styles":{"flex":"1"},"element_id":"b476f9111bc2301068dd5464604bcb91_Main"}],
+    "items" : [{"rules":{},"styles":{"flex":"1"},"element_id":"223f9e631b46f41068dd5464604bcb2a_Main"}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-flow":"row nowrap","align-items":"stretch","min-height":"400px","height":"100%"},
@@ -2002,15 +2306,15 @@
         <state_properties>[ ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-17 15:27:25</sys_created_on>
-        <sys_id>b476f9111bc2301068dd5464604bcb91</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_created_on>2022-02-07 00:38:22</sys_created_on>
+        <sys_id>c69fea05db210110e529c58605961996</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ux_macroponent_b476f9111bc2301068dd5464604bcb91</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_c69fea05db210110e529c58605961996</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-04 13:21:04</sys_updated_on>
+        <sys_updated_on>2022-02-07 00:38:23</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
