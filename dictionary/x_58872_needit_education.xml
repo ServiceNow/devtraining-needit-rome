@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Education" max_length="40" name="x_58872_needit_education" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Number of Faculty" max_length="40" name="number_of_faculty" type="integer"/>
+        <element label="School Name" max_length="40" name="school_name" type="string"/>
+        <element choice="1" label="Subjects" max_length="40" name="subjects" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Maths" value="1"/>
+                <element inactive_on_update="false" label="Science" value="2"/>
+                <element inactive_on_update="false" label="Telugu" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>
