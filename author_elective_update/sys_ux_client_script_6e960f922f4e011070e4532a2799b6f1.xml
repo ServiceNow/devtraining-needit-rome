@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">0d893e1a2f0e011070e4532a2799b62d</macroponent>
+        <name>New client script 1</name>
+        <required_translations/>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-07 20:02:41</sys_created_on>
+        <sys_id>6e960f922f4e011070e4532a2799b6f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_6e960f922f4e011070e4532a2799b6f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-07 20:02:41</sys_updated_on>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>450f38dfdb96c4508aea21c4059619e3</instance_id>
+        <instance_name>dev97033</instance_name>
+        <name>sys_ux_client_script_6e960f922f4e011070e4532a2799b6f1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;0d893e1a2f0e011070e4532a2799b62d&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-07 20:02:41&lt;/sys_created_on&gt;&lt;sys_id&gt;6e960f922f4e011070e4532a2799b6f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_6e960f922f4e011070e4532a2799b6f1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-07 20:02:41&lt;/sys_updated_on&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1019412631</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>79553ed22f0e011070e4532a2799b665</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-07 20:02:41</sys_created_on>
+        <sys_id>2e960f922f4e011070e4532a2799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f65fa10b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-07 20:02:41</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>a6960f92224e0110f8a81f374bb440f5</update_guid>
+        <update_guid_history>a6960f92224e0110f8a81f374bb440f5:1019412631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-07 20:02:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>01b6f3407f7541dcb794cb8dbffeacc4</sys_id>
+        <sys_metadata>6e960f922f4e011070e4532a2799b6f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_6e960f922f4e011070e4532a2799b6f1</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_6e960f922f4e011070e4532a2799b6f1">2e960f922f4e011070e4532a2799b6f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-07 20:02:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
