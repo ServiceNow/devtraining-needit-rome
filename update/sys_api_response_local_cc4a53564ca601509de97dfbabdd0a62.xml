@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local">
+    <sys_api_response_local action="INSERT_OR_UPDATE">
+        <api_collection/>
+        <api_operation display_value="GET /">9f071f5247a601508b736848946d43bf</api_operation>
+        <description/>
+        <name>Generated Request for 9784620a47e2cd108b736848946d43aa</name>
+        <status_code>202</status_code>
+        <sys_class_name>sys_api_response_local</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-01 17:59:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc4a53564ca601509de97dfbabdd0a62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9f071f5247a601508b736848946d43bf</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_api_response_local_cc4a53564ca601509de97dfbabdd0a62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-01 17:59:56</sys_updated_on>
+    </sys_api_response_local>
+</record_update>
