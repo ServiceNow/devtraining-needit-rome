@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_targets">
+    <pa_targets action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aggregate/>
+        <any_element>false</any_element>
+        <breakdown/>
+        <breakdown_level2/>
+        <color_scheme/>
+        <display_name>Needit: Active Weekly</display_name>
+        <element/>
+        <element_level2/>
+        <indicator display_value="Needit: Active Weekly">0d68cfcf0757011078f8f2ae7c1ed0fc</indicator>
+        <owner/>
+        <sys_class_name>pa_targets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-27 02:35:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eebfd0dc0733011078f8f2ae7c1ed0e6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>0d68cfcf0757011078f8f2ae7c1ed0fc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_targets_eebfd0dc0733011078f8f2ae7c1ed0e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-27 02:37:33</sys_updated_on>
+        <values_modified_at>2022-05-27 02:37:33</values_modified_at>
+    </pa_targets>
+</record_update>
