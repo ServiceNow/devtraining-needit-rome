@@ -2,11 +2,10 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>Test dependecias slack</description>
@@ -29,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cbd3f75e47e601508b736848946d433d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Test dependecias slack</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -37,7 +36,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_cbd3f75e47e601508b736848946d433d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-01 19:53:17</sys_updated_on>
+        <sys_updated_on>2022-07-05 12:07:13</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=cbd3f75e47e601508b736848946d433d"/>
@@ -69,16 +68,16 @@
         <table>asset_task</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"table":"sys_trigger_runner_mapping","id":"e034ff5e47e601508b736848946d4323","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>cbd3f75e47e601508b736848946d433d</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-01 19:53:16</sys_created_on>
         <sys_id>e034ff5e47e601508b736848946d4323</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-01 19:53:16</sys_updated_on>
+        <sys_updated_on>2022-07-05 12:07:16</sys_updated_on>
         <trigger display_value="">d434ff5e47e601508b736848946d4322</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
@@ -141,6 +140,7 @@
         <value>^EQ</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=cbd3f75e47e601508b736848946d433d"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=cbd3f75e47e601508b736848946d433d^sys_idNOT IN87d3f75e47e601508b736848946d4341"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>cbd3f75e47e601508b736848946d433d</id>
@@ -153,6 +153,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-01 19:51:49</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=87d3f75e47e601508b736848946d4341"/>
     <sys_hub_flow_input action="delete_multiple" query="model=cbd3f75e47e601508b736848946d433d^sys_idNOT IN06243f5e47e601508b736848946d43a2,f9243f5e47e601508b736848946d4398"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -316,13 +317,14 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=cbd3f75e47e601508b736848946d433d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cbd3f75e47e601508b736848946d433d"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=cbd3f75e47e601508b736848946d433d^sys_idNOT IN46247f5e47e601508b736848946d431d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Test dependecias slack">cbd3f75e47e601508b736848946d433d</flow>
         <order>1</order>
@@ -395,6 +397,12 @@
         <variable display_value="Webhook URL">cdca0f433be0030057a4a2e334efc476</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474^id=46247f5e47e601508b736848946d431d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=46247f5e47e601508b736848946d431d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=46247f5e47e601508b736848946d431d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=cbd3f75e47e601508b736848946d433d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=cbd3f75e47e601508b736848946d433d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cbd3f75e47e601508b736848946d433d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=cbd3f75e47e601508b736848946d433d"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_cbd3f75e47e601508b736848946d433d^sys_idNOT IN42243f5e47e601508b736848946d43fe,4a243f5e47e601508b736848946d43a0"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -442,6 +450,9 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cbd3f75e47e601508b736848946d433d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_cbd3f75e47e601508b736848946d433d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cbd3f75e47e601508b736848946d433d"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=cbd3f75e47e601508b736848946d433d^sys_idNOT INa834ff5e47e601508b736848946d4324"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
@@ -460,6 +471,7 @@
         <sys_updated_on>2022-04-01 19:53:16</sys_updated_on>
         <trigger display_value="">d434ff5e47e601508b736848946d4322</trigger>
     </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=cbd3f75e47e601508b736848946d433d"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -549,6 +561,7 @@
         <value>^EQ</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3324bf5e47e601508b736848946d4375"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=3324bf5e47e601508b736848946d4375^sys_idNOT IN3724bf5e47e601508b736848946d4376"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>3324bf5e47e601508b736848946d4375</id>
@@ -561,6 +574,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-01 19:53:14</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3724bf5e47e601508b736848946d4376"/>
     <sys_hub_flow_input action="delete_multiple" query="model=3324bf5e47e601508b736848946d4375^sys_idNOT IN4434bf5e47e601508b736848946d4377,4834bf5e47e601508b736848946d4393"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -724,13 +738,14 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=3324bf5e47e601508b736848946d4375"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3324bf5e47e601508b736848946d4375"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=3324bf5e47e601508b736848946d4375^sys_idNOT IN0034bf5e47e601508b736848946d43c0"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
         <action_type_parent display_value="Post a Message">d3b4e24b3ba0030057a4a2e334efc4e4</action_type_parent>
         <comment/>
-        <compiled_snapshot>41ca0f433be0030057a4a2e334efc474</compiled_snapshot>
         <display_text/>
         <flow display_value="Test dependecias slack">3324bf5e47e601508b736848946d4375</flow>
         <order>1</order>
@@ -803,6 +818,12 @@
         <variable display_value="Message">0dca0f433be0030057a4a2e334efc483</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474^id=0034bf5e47e601508b736848946d43c0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0034bf5e47e601508b736848946d43c0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0034bf5e47e601508b736848946d43c0"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3324bf5e47e601508b736848946d4375"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3324bf5e47e601508b736848946d4375"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3324bf5e47e601508b736848946d4375"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3324bf5e47e601508b736848946d4375"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3324bf5e47e601508b736848946d4375^sys_idNOT IN4834bf5e47e601508b736848946d438f,c034bf5e47e601508b736848946d439a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
@@ -850,8 +871,12 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_flow action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3324bf5e47e601508b736848946d4375"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3324bf5e47e601508b736848946d4375"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3324bf5e47e601508b736848946d4375"/>
+    <sys_hub_flow action="UPDATE">
         <sys_id>cbd3f75e47e601508b736848946d433d</sys_id>
         <latest_snapshot>3324bf5e47e601508b736848946d4375</latest_snapshot>
+        <compiler_build/>
     </sys_hub_flow>
 </record_update>
