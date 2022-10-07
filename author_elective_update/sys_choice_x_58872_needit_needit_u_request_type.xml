@@ -40,6 +40,26 @@
             <dependent_value/>
             <element>u_request_type</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>IT</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-05 01:41:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec8bba1a4712111069dbb7f3846d4348</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-06 02:46:14</sys_updated_on>
+            <value>IT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Facilities</label>
             <language>en</language>
@@ -75,26 +95,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-10-05 01:41:04</sys_updated_on>
             <value>legal</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_request_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>IT</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-05 01:41:04</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ec8bba1a4712111069dbb7f3846d4348</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-05 01:41:04</sys_updated_on>
-            <value>IT</value>
         </sys_choice>
     </sys_choice>
 </record_update>
