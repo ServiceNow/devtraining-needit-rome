@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_58872_needit_needit_task</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p><strong>Click here to close NeedIt Task ${number}</strong></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.closeneedittask</name>
+        <sms_alternate/>
+        <subject>Re: ${number} - please close NeedIt Task</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-15 07:04:21</sys_created_on>
+        <sys_id>9a0ea1d58733d5109fd6eb173cbb35b2</sys_id>
+        <sys_name>mailto.closeneedittask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_9a0ea1d58733d5109fd6eb173cbb35b2</sys_update_name>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
